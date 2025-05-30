@@ -30,7 +30,7 @@ function Home() {
       setIndex((prev) => (prev + 1) % titleContent.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <>
